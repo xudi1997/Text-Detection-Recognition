@@ -12,6 +12,7 @@ If you just want ocr on images, run ctpn_crnn_pytorch.py.
 PyTorch version of CRNN yields much better result than Tensorflow version.
 ```shell
 python ctpn_crnn_pytorch.py
+CUDA_VISIBLE_DEVICES=0 python ctpn_crnn_pytorch.py
 ```
 
 # report
